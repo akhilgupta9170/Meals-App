@@ -19,7 +19,7 @@ class App extends StatelessWidget {
   const App({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: theme, home: TabsScreen() //Todo
+    return MaterialApp(theme: theme, home: const TabsScreen() //Todo
         );
   }
 }
